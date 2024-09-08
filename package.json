@@ -1,0 +1,24 @@
+{
+  "name": "hackathon-resume-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.5.4",
+    "@types/pdfkit": "^0.13.4",
+    "short-url": "^0.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "crypto-js": "^4.2.0",
+    "fs": "^0.0.1-security",
+    "pdfkit": "^0.15.0",
+    "uuid": "^10.0.0"
+  }
+}

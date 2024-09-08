@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Personal Information section -->
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <p>Name: Ayesha Gull</p>
+            <p>Contact Details: gullayesha245@gmail.com</p>
+            <img src="images/profile.jpeg" alt="Profile Picture" id="profile-picture" > 
+        </section>
+        <!-- Education section -->
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>DAE, CIT, Saifee Eide Zahabi Institute of Sci and Tech (2024)</li>
+            </ul>
+        </section>
+        <!-- Skills section -->
+        <button id="toggle-skills-btn">Hide Skills</button>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Html</li>
+        <li>Css</li>
+        <li>TypeScript</li>
+        <li>MS Office</li>
+        <li>Networking</li>
+      </ul>
+    </section>
+
+        <!-- Work Experience section -->
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Computar Teacher at The Oxford Smart School</li>
+                <li>Subject Teacher in coaching centre.</li>
+                <li> Interviewer in BIS program. </li>
+            </ul>
+        </section>
+    </header>
+
+    <section>
+
+
+
+         <!-- Form Section -->
+  <form id="resume-form">
+<section>
+    <!-- Personal Information section -->
+    <h2>Personal Information</h2>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+</section>
+    <section>
+    <!-- Education section -->
+    <h2>Education</h2>
+
+    <label for="degree">Degree:</label>
+    <input type="text" id="degree" name="degree"><br><br>
+    <label for="university">University:</label>
+    <input type="text" id="university" name="university"><br><br>
+    <label for="graduation-date">Graduation Date:</label>
+    <input type="date" id="graduation-date" name="graduation-date"><br><br>
+</section>
+<section>
+    <!-- Work Experience section -->
+    <label for="job-title">Job Title:</label>
+    <input type="text" id="job-title" name="job-title"><br><br>
+    <label for="company">Company:</label>
+    <input type="text" id="company" name="company"><br><br>
+    <label for="employment-dates">Employment Dates:</label>
+    <input type="text" id="employment-dates" name="employment-dates"><br><br>
+</section>
+<section>
+<h2>My Skills</h2>
+                <label for="my-skills">My Skills:</label>
+                <textarea id="my-skills" name="my-skills" rows="5" cols="30"></textarea><br><br>
+    </section>
+<button type="button" id="generate-resume-btn">Generate Resume</button>
+</form>
+
+<!-- .............................milestone 4.............. -->
+
+<div id="resume-container">
+
+    <section id="education" contenteditable="true">
+        <h2>Education</h2>
+        <p>Degree: Bachelor of Science in Computer Science</p>
+        <p>University: XYZ University</p>
+        <p>Graduation Date: May 2020</p>
+    </section>
+    <section id="work-experience" contenteditable="true">
+        <h2>Work Experience</h2>
+        <p>Job Title: Software Engineer</p>
+        <p>Company: ABC Corporation</p>
+        <p>Employment Dates: June 2020 - Present</p>
+    </section>
+    <section id="skills" contenteditable="true">
+        <h2>Skills</h2>
+        <p>Programming languages: JavaScript, TypeScript, HTML, CSS</p>
+        <p>Frameworks: React, Angular, Vue.js</p>
+        <p>Databases: MySQL, MongoDB</p>
+    </section>
+ <section id="projects" contenteditable="true">
+        <h2>Projects</h2>
+        <p>Project 1: ABC Project</p>
+        <p>Project 2: DEF Project</p>
+        <p>Project 3: GHI Project</p>
+    </section>
+</div>
+
+<div id="resume-preview">
+    <h1>Resume Preview</h1>
+    <div id="preview-container"></div>
+</div>
+
+</div>
+<!-- ... add contenteditable attribute to all sections -->
+
+
+<section id="education" contenteditable="true">
+    <!-- education content -->
+</section>
+
+<section id="work-experience" contenteditable="true">
+    <!-- work experience content -->
+</section>
+
+
+<!-- ...........................milestone 5........................................... -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ... rest of the HTML code ... -->
+    <script src="script.js" defer></script>
+
+</body>
+</html>
